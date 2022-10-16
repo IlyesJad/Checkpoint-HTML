@@ -1,0 +1,270 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.logo{ 
+    float: left;
+    color: rgb(99, 209, 26);
+    width: fit-content;
+    margin-top: 16px;
+    padding-left:120px;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.span1{
+    color: yellow;
+}
+
+
+.nav{
+    width: 100%;
+    height: 66px; 
+    background-color: #00f;
+    
+}
+
+
+ul{
+    
+    width: 623px;
+    float: right;
+    
+    
+}
+
+.nav li{
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px 10px;
+    margin: 0px;
+    
+}
+
+a{
+text-align: center;
+font-style: italic;
+text-decoration: solid;
+color: #d8ff00;
+padding: 20px;
+justify-content: space-between;
+
+
+}
+a:hover {
+
+    background-color: #d8ff00;
+    border: 3px solid black ;
+    border-radius: 5px;
+    color: rgb(255, 8, 0);
+   /* cursor: grab;*/
+}
+
+.head {
+    
+    background-color: #00ff00c2;
+    padding: 20px;
+    width: auto;
+    margin: 0px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(247 0 255);
+}
+
+main{
+    background-color: #72889b;
+}
+#titre2{
+width: 100%;
+height:50px;
+
+
+}
+
+.tit{
+    color: #00f;
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+span.img{
+    display: inline-block;
+    justify-content: space-between;
+    
+    
+}
+.img {
+    width: 40%;
+    transition: 0.5s;
+    filter: grayscale(100%);
+    border: 10px solid black;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+
+.img:hover { 
+    filter :grayscale(0%);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.aud{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    border: 5px solid black;
+}
+audio{
+
+}
+
+
+.video{
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    filter: grayscale(50%);
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.para{
+    text-indent: 50px;
+    background-color: #72889b;
+    font-style: italic;
+    font-weight: 200;
+    text-decoration:none;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    border: 5px rgb(201, 235, 11) double;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+} 
+
+/*.table {
+margin-left: 30%;
+
+}*/
+
+/*label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    
+}*/
+
+.cont{
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(28 28 28 / 90%);
+}
+
+
+.contact{
+    width: auto;
+    height: 800px;
+    background:linear-gradient(135deg,#71b7e6,#9b59b6);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.contain{
+    width: 80%;
+    height: 700px;
+    position: relative;
+    background-color: #eeeeeec9;
+    border-radius: 10px;
+    transform: translate(10%,0);
+}
+
+.input{
+    margin: 0 0 0 250px;
+    padding: 0 0 0 0;
+    width: 250px;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+   
+
+}
+.label1{
+    position: relative;
+    top: 32px;
+    left: 145px;
+    
+  
+}
+
+.txtarea{
+    width: 400px;
+    height: 120px;
+    position: relative;
+    left: 250px;
+    border-radius: 10px;
+}
+
+
+.radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: black;
+    cursor: pointer;
+}
+.boutton1{
+    position: relative;
+    right: -275px;
+    width: 100px;
+    height: 40px;
+    
+}
+.boutton2{
+    position: relative;
+    right: -320px;
+    width: 250px;
+    height: 40px;
+   
+}
+.boutton1,.boutton2{
+
+font-size: 25px;
+border-radius: 30px;
+background-color:#366473;
+cursor:pointer;
+transition: 0.5s;
+}
+.boutton1:hover{
+    transform: scale(1.1);
+}
+.boutton2:hover{
+    transform: scale(1.1);
+}
+footer{
+
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

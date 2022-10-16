@@ -3,25 +3,80 @@
     <head>
     <meta charset="UFT-8" />
     <title>Mon premier Projet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,700&display=swap" rel="stylesheet">
     <meta name="description" content="This is My first project for my protfolio" />
+    
     </head>
     <body>
-    <header><h1> My first Website</h1> </header> 
+        
+    <header><h1 class="head"> My first Website</h1> </header> 
     <!--my first comment-->                      
-        <nav>
-            <ul>
+     <nav class="nav">
+        <div class="logo">
+            <h2>Ilyes <span class="span1">jad</span> </h2>
+        </div>
+        <ul>
             <li><a href="#home">home</a></li>
             <li><a href="#about">about</a></li> 
             <li><a href="#work">work</a></li>
             <li><a href="#resume">resume</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
-        </nav>
+    </nav>
            
-          <main>  
-            <section id="home">
-                <p> this is my first project</p>
-                <table border="1" cellpadding="2">
+    <main>  
+            
+            
+             <section id="about">
+
+            <div class="para">
+                <p contenteditable="true">
+                    <h2>What's is it about</h2>
+                    Do you get really excited starting a new project, but find you never finish it?
+                    Often times when starting something new we feel excitement and enthusiasm and everything is perfect. 
+                    The momentum is good and we feel great! Suddenly three-quarters of the way through,
+                     boom you are stuck! All was well and there it is a problem that leaves you feeling confused 
+                     and irritated.
+                    Annoyed at the prospect of having to figure it out you walk away.
+                     Of course, you intend to go back but you never do. The problem may stare at you every day
+                      but you avoid it at all cost. Covering it up with a towel, stacking things around it, or just plain
+                       ignoring it all together. Still, it looms in the back of your mind grudging you every time
+                you think about it.
+                </p>
+            </div> 
+            <div id="titre2">
+                <h1 class="tit">Choose your Course</h1>
+            </div>
+            <figure class="fig1">
+                
+
+                <span>
+                    <img class="img" src="code.jpg"  alt="not found" width="380px"  height="300">
+                </span>
+                <span>
+                    <img class="img" src="coding.jpeg" alt="not found" width="380px" height="300px" >
+                </span> 
+                
+             </figure>
+             <div class="aud">
+                
+             <audio controls>
+                <p>this is the tape you're asking about</p>
+            <source src="David_Vendetta_She_Turns_Around.mp3" type="audio/mpeg">
+                Please Check the audio Extension
+             </audio>
+            </div>
+            </section>
+            <br><br>
+<!--
+<section class="table" id="home" title="tableau de notes">
+        <p> this is my first project</p>
+            <table border="1" cellpadding="2">
                     <caption>student result</caption>
                     <thead>
                         <tr>
@@ -53,95 +108,95 @@
                                 <td>41</td>
                             </tr>
                         </tfoot>
-                </table>
+            </table>
+</section>-->
                 <br>
-            </section>
-            <section id="about">
-            <figure class="fig1">
-            <img src="code.jpg"  alt="not found" width="400px"  height="300">
-            <figcaption>the future is in your hands</figcaption>
-             </figure>
-             <audio controls>
-            <source src="David_Vendetta_She_Turns_Around.mp3" type="audio/mpeg">
-                Please Check the audio Extension
-             </audio>
-            </section>
-            <br><br>
 
       
             
             <section id="work">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Sg-RndybBvg?start=8"
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Sg-RndybBvg?start=8"
                  title="YouTube video player" frameborder="0" 
                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                  allowfullscreen></iframe>
             <br>
+    <div>
 
-                <a href="email:ilyes.jad@esprit.tn" title="email">send email</a>
+               <!-- <a type="email" href="email:ilyes.jad@esprit.tn" title="email">send email</a>
                 my <span>projetc</span>    
             </section>
             <br>
             <section id="resume">resume
-                <p>this is the section resume</p>
+                <p class="para2"">this is the section resume</p>-->
+              
+     </div>
             </section>
-<hr>
-            <section id="contact"> contact
+                <hr>
+        <section id="contact" class="contact">
+             <h1 class="cont">Contact</h1>
                 <form action="">
-                    <div>
-                <label>User Name</label>
-                <input type="text" 
-                placeholder="User name" 
-                required
-                autofocus >
+                    <div class="contain">
+                <div class="">
+                    <label class="label1">User Name:</label>
+                    <input type="text" class="input" placeholder="User name"  required>
+                    
+                </div>
+                <br>
+                <div >
+                <label class="label1">E-mail:</label>
+                <input type="email" class="input" placeholder="email" required>
                 </div>
                 <br>
                 <div>
-                <label>email</label>
-                <input type="email" 
-                placeholder="email" 
-                required>
-                </div>
-                <br>
-                <div>
-                <label>Password</label>
-                <input type="password" 
-                placeholder="password"
-                minlength="8" 
-                required>
+                <label class="label1">Password:</label>
+                <input type="password" class="input" placeholder="password"  minlength="8" maxlength="12" required>
                 </div>
                 <br>
                 <div>
                     <div>
-                        <label>Birthday</label>
-                        <input type="date">
+                        <label class="label1">Date:</label>
+                        <input  class="input"  type="date">
                     </div>
-                <select>
-                    <option value="option1">option1</option>
-                    <option value="option2">option2</option>
-                    <option value="option3">option3</option>
-                    <option value="option4">option4</option>
+                    <label class="label1">Speciality:</label>
+                <select class="input">
+                    
+                    <option value="option1">Html</option>
+                    <option value="option2">Css</option>
+                    <option value="option3">Javascript</option>
+                    <option value="option4">React</option>
                   </select>
-                </div>
+                  <label class="label1">Commentairy:</label>
+                
                   <br>
-                <textarea name="" id="subject" 
+                  
+                <textarea class="txtarea" name="" id="subject" 
                 cols="50" 
                 rows="5" 
                 placeholder="Write your commente"></textarea>
-                <br>
+                <br><br>
                 <div>
+                    <h2 id="rad">Are you a beginner?</h2>
+                    <label class="radio">
                     <input id="on" type="radio" name="os" value="online" checked>
-                    <label for="on">online</label>
+                    <span class="checkmark"></span>
+                        YES
+                   </label>
+                   <label class="radio">
+                    <input id="on" type="radio" name="os" value="online" checked>
+                    <span class="checkmark"></span>
+                        No
+                   </label>
+                   <br><br>
                 </div>
-                <div>
-                    <input id="off" type="radio" name="os" value="offline">
-                    <label for="off">offline</label>
-                </div>
-                <input type="reset" value="reset">
-                <input type="submit" value="Submit">
+                <input class="boutton1" type="reset" value="reset">
+                <input class="boutton2" type="submit" value="Submit">
+            </div>
             </form>
             </section>
-        </main>
+      
+       
+    </main>
 
-<footer>copyrights</footer>
+<footer>All rights reserved 2022</footer>
     </body>
 </html>
